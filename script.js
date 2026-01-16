@@ -57,7 +57,7 @@ restartBtn.addEventListener("click", () => {
 // 💌 Show gift message
 giftBtn.addEventListener("click", () => {
   giftMsg.textContent =
-    "💌 Sorry I’m not there to make something special for you, but you have three wishes — and if I can, I’ll make them all come true.😅";
+    "😅 I couldn’t be there, so I’m making it up to you — this gift includes three wishes. Use them wisely.💌";
   giftMsg.classList.add("show");
 });
 
@@ -185,3 +185,4 @@ function startEffects() {
   }
   animate();
 }
+
